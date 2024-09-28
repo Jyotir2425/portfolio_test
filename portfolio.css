@@ -1,0 +1,429 @@
+.name {
+    display: inline;
+    height: 10%;
+    font-weight: 400;
+    font-size: xx-large;
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-left: 2%;
+}
+
+.links {
+    height: 10%;
+    display: inline;
+    position: absolute;
+    top: 4%;
+    left: 35%;
+    right: 22%;
+}
+
+.quick {
+    margin-left: 13%;
+    margin-right: 8%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.quick:hover {
+    font-weight: 700;
+}
+
+.hire {
+    display: inline;
+    position: absolute;
+    left: 86%;
+    top: 2%;
+}
+
+.top {
+    background-image: linear-gradient(#0dccea, #0d70ea);
+    border: 0;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+    font-size: .9em;
+    margin: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(270deg, #D9AFD9 0%, #97D9E1 100%);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    width: 40%;
+    font-size: 1.5rem;
+    padding-top: 8%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.intro {
+    margin-top: 4%;
+    font-size: 7rem;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.info {
+    border-left: 5px solid #f1f1f1;
+    padding-left: 4%;
+    margin-top: 8%;
+    font-size: 1.2rem;
+}
+
+.right {
+    width: 40%;
+    margin-left: -10%;
+}
+
+.fimage {
+    width: 100%;
+    margin-top: 10%;
+}
+
+h1 {
+    border: 5px double black;
+    text-align: center;
+    border-radius: 70px;
+    margin: 5% 35%;
+    padding: 0.7%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+.second {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 6%;
+}
+
+.sk1 {
+    width: 20%;
+    background-color: #f1f1f1;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.sk1:hover {
+    background-color: #45474B;
+    color: white;
+}
+
+.skimg {
+    width: 50%;
+    padding-top: 10%;
+    padding-left: 25%;
+}
+
+.sknam {
+    padding-left: 13%;
+    font-size: 130%;
+}
+
+.skprg {
+    background: #959595;
+    width: 225px;
+    height: 10px;
+    border-radius: 10px;
+    margin: 0px auto;
+    margin-bottom: 12%;
+    margin-top: 4%;
+}
+
+.lang {
+    height: 10px;
+    border-radius: 5px;
+}
+
+.langsp {
+    height: 35px;
+    width: 35px;
+    border-radius: 45%;
+    background-color: white;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.fourth {
+    width: 50%;
+    margin: 0% 24%;
+}
+
+.container {
+    max-width: 800px;
+    background: #f1f1f1;
+    width: 800px;
+    padding: 25px 40px 10px 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+.container .text {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.container form {
+    padding: 30px 0 0 0;
+}
+
+.container form .form-row {
+    display: flex;
+    margin: 32px 0;
+}
+
+form .form-row .input-data {
+    width: 100%;
+    height: 40px;
+    margin: 0 20px;
+    position: relative;
+}
+
+form .form-row .textarea {
+    height: 70px;
+}
+
+.input-data input,
+.textarea textarea {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+}
+
+.input-data input:focus~label,
+.textarea textarea:focus~label,
+.input-data input:valid~label,
+.textarea textarea:valid~label {
+    transform: translateY(-20px);
+    font-size: 14px;
+    color: #3498db;
+}
+
+.textarea textarea {
+    resize: none;
+    padding-top: 10px;
+}
+
+.input-data label {
+    position: absolute;
+    pointer-events: none;
+    bottom: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.textarea label {
+    width: 100%;
+    bottom: 40px;
+    background: #f1f1f1;
+}
+
+.input-data .underline {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+}
+
+.input-data .underline:before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: #3498db;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.input-data input:focus~.underline:before,
+.input-data input:valid~.underline:before,
+.textarea textarea:focus~.underline:before,
+.textarea textarea:valid~.underline:before {
+    transform: scale(1);
+}
+
+.submit-btn .input-data {
+    overflow: hidden;
+    height: 45px !important;
+    width: 25% !important;
+}
+
+.submit-btn .input-data .inner {
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+    transition: all 0.4s;
+}
+
+.submit-btn .input-data:hover .inner {
+    left: 0;
+}
+
+.submit-btn .input-data input {
+    background: rgba(255, 255, 255, .25);
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+@media (max-width: 700px) {
+    .container .text {
+        font-size: 30px;
+    }
+
+    .container form {
+        padding: 10px 0 0 0;
+    }
+
+    .container form .form-row {
+        display: block;
+    }
+
+    form .form-row .input-data {
+        margin: 35px 0 !important;
+    }
+
+    .submit-btn .input-data {
+        width: 40% !important;
+    }
+}
+
+input,
+textarea {
+    background: #f1f1f1;
+}
+
+.button-83 {
+    appearance: button;
+    background-color: transparent;
+    border: 0 solid #e5e7eb;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #482307;
+    column-gap: 1rem;
+    cursor: pointer;
+    display: flex;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 40%;
+    outline: 2px solid transparent;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    text-transform: none;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow: -6px 8px 10px rgba(81, 41, 10, 0.1), 0px 2px 2px rgba(81, 41, 10, 0.2);
+}
+
+.button-83:active {
+    background-color: #f3f4f6;
+    box-shadow: -1px 2px 5px rgba(81, 41, 10, 0.15), 0px 1px 1px rgba(81, 41, 10, 0.15);
+    transform: translateY(0.125rem);
+}
+
+.button-83:focus {
+    box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81, 41, 10, 0.1), 0px 2px 2px rgba(81, 41, 10, 0.2);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 1% 20%;
+}
+
+.f1 {
+    width: 14%;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+
+.f2 {
+    width: 60%;
+    height: 60%;
+    transition: 0.7s;
+    margin: 20% 20%;
+}
+
+.f1:hover {
+    background-color: rgb(241, 241, 241, 0.9);
+    box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+    cursor: pointer;
+}
+
+hr {
+    margin-top: 5%;
+    margin-left: 14%;
+    margin-right: 14%;
+    background-color: #f1f1f1;
+    border: 2px solid #f1f1f1;
+    border-radius: 2px;
+}
